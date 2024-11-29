@@ -1,0 +1,186 @@
+/* General del modal */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 0px;
+  width: 100%;
+
+}
+
+.menu-logo {
+  width: 120px;
+  height: 110px;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.us {
+  width: 80px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+
+.us button:hover {
+  background-color: #8B1E3F;
+}
+
+
+.menu-buttons button {
+  background: transparent;
+  border: none;
+  color: #8B1E3F;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  padding: 10px 17px;
+  border-radius: 10px;
+  
+}
+
+.menu-buttons button:hover {
+  color: white; 
+  background-color: #8B1E3F; 
+}
+
+.menu-buttons2 button {
+  background: transparent;
+  border: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  margin-right: 10px;
+  margin-left: 30px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+
+.menu-buttons2 button:hover {
+  color: white; 
+  background-color: #8B1E3F; 
+}
+
+.menu-actions .menu-action {
+  color: #8B1E3F;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menu-user {
+  font-size: 24px;
+  margin-left: auto;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Arial', sans-serif; 
+}
+
+
+.modal-title {
+  text-align: center;
+  color: #8B1E3F;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos de formulario */
+.profile-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.profile-row {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-row input {
+  flex: 1;
+}
+
+.profile-password label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-button,
+.save-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-button {
+  background: transparent;
+  color: #8B1E3F;
+  font-size: 14px;
+}
+
+.cancel-button:hover {
+  text-decoration: underline;
+}
+
+.save-button {
+  background: #8B1E3F;
+  color: white;
+  font-size: 14px;
+}
+
+.save-button:hover {
+  background: #661a2e;
+}
+
+.modal-content h2 {
+  margin-bottom: 15px;
+}
+
+.profile-form input::placeholder {
+  color: #888;
+  font-size: 14px;
+}
+
+body {
+  background-color: #ffffff; /* fondo */
+  margin: 0;
+  padding: 0;
+}

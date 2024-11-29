@@ -1,0 +1,200 @@
+.anuncio-card {
+  background-color: #ffffff; 
+  color: #8B1E3F; 
+  width: 260px; 
+  padding: 20px;
+  border-radius: 10px; 
+  border: 2px solid #8B1E3F; 
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.anuncio-card-container {
+  background-color: #8B1E3F; 
+  padding: 10px; 
+  border-radius: 15px;
+  display: inline-block; 
+}
+
+.anuncio-card {
+  background-color: #ffffff; 
+  color: #8B1E3F;
+  width: 260px;
+  padding: 20px;
+  border-radius: 0px;
+  border: 50px solid #8B1E3F; 
+  text-align: center;
+  position: relative;
+}
+
+
+.anuncio-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.anuncio-logo {
+  width: 100px; 
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.anuncio-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #8B1E3F; 
+  margin: 10px 0;
+}
+
+.anuncio-description {
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Arial', sans-serif;
+  margin: 10px 0;
+  color: #8B1E3F;
+}
+
+.anuncio-name {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #8B1E3F; 
+  color: white; 
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.anuncio-location{
+  font-size: 19px;
+  margin: 5px 5;
+  color: #a51111;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+.anuncio-contact {
+  font-size: 19px;
+  margin: 5px 5;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+.anuncio-socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #b92f54; 
+}
+
+.social-icon img {
+  width: 20px; 
+  height: 20px;
+}
+
+.anuncio-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.anuncio-socials {
+  display: flex;
+  gap: 0px;
+}
+
+.anuncio-edit-delete {
+  display: flex;
+  gap: -17px;
+}
+
+.action-icon img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Modal para editar */
+.edit-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: 500px;
+  padding: 20px;
+  border: 2px solid #8B1E3F;
+  border-radius: 10px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edit-form input, .edit-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  background-color: transparent;
+  color: red;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #8B1E3F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
